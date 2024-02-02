@@ -50,7 +50,7 @@ class Card extends HTMLElement {
     style.textContent = `
     
     img {
-      widht: 200px;
+      width: 200px;
       height: 200px;
       border-radius: 5px
     }
