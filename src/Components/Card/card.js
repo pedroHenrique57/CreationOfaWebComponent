@@ -30,8 +30,7 @@ class Card extends HTMLElement {
 
     const img = document.createElement('img');
     img.src = this.getAttribute('img-src');
-    img.alt =
-      this.getAttribute('img-alt') || 'No image descriptive information.';
+    img.alt = this.getAttribute('img-alt') || 'No image descriptive information.';
 
     cardLeft.appendChild(author);
     cardLeft.appendChild(title);
